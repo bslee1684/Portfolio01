@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<option>
+    <category name="MISSING_BREAK_IN_CASE">
+        <item name="ignore_if_comment_exists" type="boolean" required="true" variable="false">
+            <value>true</value>
+        </item>
+        <item name="check_last_case_only" type="boolean" required="true" variable="false">
+            <value>true</value>
+        </item>
+    </category>
+</option>

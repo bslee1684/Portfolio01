@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<option>
+    <category name="DO_NOT_NOTIFY_IN_SYNCHRONIZED">
+        <item name="notify_method" type="string" required="false" variable="true" regexp="true">
+            <value>.+\.notify</value>
+        </item>
+    </category>
+</option>

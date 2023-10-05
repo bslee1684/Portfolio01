@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<option>
+    <category name="DO_NOT_SLEEP_OR_YIELD_WITHOUT_CONTROL">
+        <item name="sleep_method" type="string" required="false" variable="true" regexp="true">
+            <value>.+\.sleep</value>
+        </item>
+        <item name="yield_method" type="string" required="false" variable="true" regexp="true">
+            <value>.+\.yield</value>
+        </item>
+    </category>
+</option>

@@ -1,0 +1,39 @@
+# C / C++
+C=c, cc, cpp, i, ii, ipp, pc, sc, ec, cxx, cc, tbc, cp
+HEADER=h, hpp, inl
+PROC=pc, sc, ec, gc, cp
+YAK=c, cpp, h, hpp
+
+# Java / Others
+JAVA=java
+JSP=jsp, jspx, jspf, js, xfdl, xadl, xjs, xhtml, cshtml, scn
+SQL=pc, sql, xml, sh, sqx, pl, properties, tld, cbl, cob, py, mxml, as, config
+HTML=htm, html
+OBJC=m, mm, c, h, swift
+PHP=php, ini, inc
+CS=cs
+ASP=asp, aspx, ascx, vbs, cshtml, map, vb, inc
+ABAP=abap
+
+#Jem
+JF_SEM=java, jsp
+JF_SYN=java, jsp
+JSCHK=js, xfdl, xadl, xjs, xhtml, cshtml, asp, aspx, ascx, vbs, cshtml, map, vb, scn, html
+SQLCHK=pc, sql, xml, sh, sqx, pl, properties, tld
+STRCHK=java, jsp, jspx, jspf, js, xfdl, xadl, xjs, xhtml, cshtml, scn, pc, sql, xml, sh, sqx, pl, properties, tld, cbl, cob, py, mxml, as, config, htm, html
+PMD_JAVA=java
+PMD_JSP=jsp, js
+OBJCHK=m, mm, c, h
+SWIFTCHK=swift
+PYTHONCHK=py
+XML=config, xml
+
+VBS=vbs, map, aspx, vb
+VBNET=vb
+ASPCONV=asp, aspx, ascx, cshtml, inc
+
+# Exclude Ctags (in Java/Others)
+EXCLUDE_CTAGS=class, i, ii, xml, sql, m, mm, jsp, jspx, jspf, js, ini, vbs, abap, properties, cshtml, vb, map, mxml, swift, scn, py
+
+# Prep files (in Prebuilder)
+PREP=i, ii, ipp, pre, pp, mi, mii

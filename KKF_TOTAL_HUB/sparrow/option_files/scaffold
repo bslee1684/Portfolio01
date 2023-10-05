@@ -1,0 +1,1135 @@
+method org.apache.commons.io.Charsets.toCharset(java.nio.charset.Charset){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FilenameUtils.normalize(java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FilenameUtils.normalize(java.lang.String,boolean){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FilenameUtils.normalizeNoEndSeparator(java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FilenameUtils.normalizeNoEndSeparator(java.lang.String,boolean){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FilenameUtils.concat(java.lang.String,java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FilenameUtils.getPrefixLength(java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FilenameUtils.getPrefix(java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FilenameUtils.getPath(java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FilenameUtils.getPathNoEndSeparator(java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FilenameUtils.getFullPath(java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FilenameUtils.getFullPathNoEndSeparator(java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FilenameUtils.getExtension(java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FilenameUtils.equals(java.lang.String,java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FilenameUtils.equalsOnSystem(java.lang.String,java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FilenameUtils.equalsNormalized(java.lang.String,java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FilenameUtils.equalsNormalizedOnSystem(java.lang.String,java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FilenameUtils.equals(java.lang.String,java.lang.String,boolean,org.apache.commons.io.IOCase){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FileUtils.openInputStream(java.io.File){
+	memory(){
+		return resource(java.io.FileInputStream)
+	}
+}
+method org.apache.commons.io.FileUtils.openOutputStream(java.io.File){
+	memory(){
+		return resource(java.io.FileOutputStream)
+	}
+}
+method org.apache.commons.io.FileUtils.openOutputStream(java.io.File,boolean){
+	memory(){
+		return resource(java.io.FileOutputStream)
+	}
+}
+method org.apache.commons.io.FileUtils.toFile(java.net.URL){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FileUtils.toFiles(java.net.URL){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FileUtils.readFileToString(java.io.File,java.nio.charset.Charset){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FileUtils.readFileToString(java.io.File,java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FileUtils.readFileToString(java.io.File){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FileUtils.readFileToByteArray(java.io.File){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FileUtils.readLines(java.io.File,java.nio.charset.Charset){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FileUtils.readLines(java.io.File,java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FileUtils.readLines(java.io.File){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FileUtils.lineIterator(java.io.File,java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.FileUtils.lineIterator(java.io.File){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.input.BOMInputStream.getBOM(){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.input.BOMInputStream.getBOMCharsetName(){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.input.BoundedInputStream.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.input.BoundedInputStream.<init>(java.io.InputStream,long){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.BoundedInputStream.<init>(java.io.InputStream){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.BrokenInputStream.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.input.BrokenInputStream.<init>(java.io.IOException){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.BrokenInputStream.<init>(){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.CharSequenceInputStream.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.input.CharSequenceInputStream.<init>(java.lang.CharSequence,java.nio.charset.Charset,int){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.CharSequenceInputStream.<init>(java.lang.CharSequence,java.lang.String,int){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.CharSequenceInputStream.<init>(java.lang.CharSequence,java.nio.charset.Charset){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.CharSequenceInputStream.<init>(java.lang.CharSequence,java.lang.String){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.CharSequenceReader.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.input.CharSequenceReader.<init>(java.lang.CharSequence){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.ClassLoaderObjectInputStream.<init>(java.lang.ClassLoader,java.io.InputStream){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.DemuxInputStream.bindStream(java.io.InputStream){
+	memory(){
+		return resource(java.io.InputStream)
+	}
+}
+method org.apache.commons.io.input.DemuxInputStream.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.input.NullInputStream.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.input.NullInputStream.<init>(long){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.NullInputStream.<init>(long,boolean,boolean){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.NullReader.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.input.NullReader.<init>(long){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.NullReader.<init>(long,boolean,boolean){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.ProxyInputStream.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.input.ProxyInputStream.<init>(java.io.InputStream){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.ProxyReader.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.input.ProxyReader.<init>(java.io.Reader){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.ReaderInputStream.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.input.ReaderInputStream.<init>(java.io.Reader,java.nio.charset.CharsetEncoder){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.ReaderInputStream.<init>(java.io.Reader,java.nio.charset.CharsetEncoder,int){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.ReaderInputStream.<init>(java.io.Reader,java.nio.charset.Charset,int){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.ReaderInputStream.<init>(java.io.Reader,java.nio.charset.Charset){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.ReaderInputStream.<init>(java.io.Reader,java.lang.String,int){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.ReaderInputStream.<init>(java.io.Reader,java.lang.String){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.ReaderInputStream.<init>(java.io.Reader){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.ReversedLinesFileReader.readLine(){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.input.XmlStreamReader.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.input.XmlStreamReader.<init>(java.io.File){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.XmlStreamReader.<init>(java.io.InputStream){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.XmlStreamReader.<init>(java.io.InputStream,boolean){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.XmlStreamReader.<init>(java.io.InputStream,boolean,java.lang.String){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.XmlStreamReader.<init>(java.net.URL){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.XmlStreamReader.<init>(java.net.URLConnection,java.lang.String){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.XmlStreamReader.<init>(java.io.InputStream,java.lang.String){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.XmlStreamReader.<init>(java.io.InputStream,java.lang.String,boolean,java.lang.String){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.XmlStreamReader.<init>(java.io.InputStream,java.lang.String,boolean){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.input.XmlStreamReaderException.getBomEncoding(){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.input.XmlStreamReaderException.getXmlGuessEncoding(){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.input.XmlStreamReaderException.getXmlEncoding(){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.input.XmlStreamReaderException.getContentTypeMime(){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.input.XmlStreamReaderException.getContentTypeEncoding(){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.IOCase.checkIndexOf(java.lang.String,int,java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.IOUtils.closeQuietly(java.io.Reader){
+	memory(){
+	}
+	trigger() close(#1)
+}
+method org.apache.commons.io.IOUtils.closeQuietly(java.io.Writer){
+	memory(){
+	}
+	trigger() close(#1)
+}
+method org.apache.commons.io.IOUtils.closeQuietly(java.io.InputStream){
+	memory(){
+	}
+	trigger() close(#1)
+}
+method org.apache.commons.io.IOUtils.closeQuietly(java.io.OutputStream){
+	memory(){
+	}
+	trigger() close(#1)
+}
+method org.apache.commons.io.IOUtils.closeQuietly(java.net.Socket){
+	memory(){
+	}
+	trigger() close(#1)
+}
+method org.apache.commons.io.IOUtils.closeQuietly(java.nio.channels.Selector){
+	memory(){
+	}
+	trigger() close(#1)
+}
+method org.apache.commons.io.IOUtils.closeQuietly(java.net.ServerSocket){
+	memory(){
+	}
+	trigger() close(#1)
+}
+method org.apache.commons.io.IOUtils.toBufferedInputStream(java.io.InputStream){
+	memory(){
+		return resource(java.io.InputStream)
+	}
+}
+method org.apache.commons.io.IOUtils.toBufferedReader(java.io.Reader){
+	memory(){
+		return resource(java.io.BufferedReader)
+	}
+}
+method org.apache.commons.io.IOUtils.toInputStream(java.lang.CharSequence){
+	memory(){
+		return resource(java.io.InputStream)
+	}
+}
+method org.apache.commons.io.IOUtils.toInputStream(java.lang.CharSequence,java.nio.charset.Charset){
+	memory(){
+		return resource(java.io.InputStream)
+	}
+}
+method org.apache.commons.io.IOUtils.toInputStream(java.lang.CharSequence,java.lang.String){
+	memory(){
+		return resource(java.io.InputStream)
+	}
+}
+method org.apache.commons.io.IOUtils.toInputStream(java.lang.String){
+	memory(){
+		return resource(java.io.InputStream)
+	}
+}
+method org.apache.commons.io.IOUtils.toInputStream(java.lang.String,java.nio.charset.Charset){
+	memory(){
+		return resource(java.io.InputStream)
+	}
+}
+method org.apache.commons.io.IOUtils.toInputStream(java.lang.String,java.lang.String){
+	memory(){
+		return resource(java.io.InputStream)
+	}
+}
+method org.apache.commons.io.output.BrokenOutputStream.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.output.BrokenOutputStream.<init>(java.io.IOException){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.BrokenOutputStream.<init>(){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.DeferredFileOutputStream.getData(){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.output.DeferredFileOutputStream.getFile(){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.output.DemuxOutputStream.bindStream(java.io.OutputStream){
+	memory(){
+		return resource(java.io.OutputStream)
+	}
+}
+method org.apache.commons.io.output.DemuxOutputStream.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.output.FileWriterWithEncoding.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.output.FileWriterWithEncoding.<init>(java.lang.String,java.lang.String){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.FileWriterWithEncoding.<init>(java.lang.String,java.lang.String,boolean){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.FileWriterWithEncoding.<init>(java.lang.String,java.nio.charset.Charset){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.FileWriterWithEncoding.<init>(java.lang.String,java.nio.charset.Charset,boolean){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.FileWriterWithEncoding.<init>(java.lang.String,java.nio.charset.CharsetEncoder){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.FileWriterWithEncoding.<init>(java.lang.String,java.nio.charset.CharsetEncoder,boolean){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.FileWriterWithEncoding.<init>(java.io.File,java.lang.String){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.FileWriterWithEncoding.<init>(java.io.File,java.lang.String,boolean){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.FileWriterWithEncoding.<init>(java.io.File,java.nio.charset.Charset){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.FileWriterWithEncoding.<init>(java.io.File,java.nio.charset.Charset,boolean){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.FileWriterWithEncoding.<init>(java.io.File,java.nio.charset.CharsetEncoder){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.FileWriterWithEncoding.<init>(java.io.File,java.nio.charset.CharsetEncoder,boolean){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.LockableFileWriter.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.output.LockableFileWriter.<init>(java.lang.String){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.LockableFileWriter.<init>(java.lang.String,boolean){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.LockableFileWriter.<init>(java.lang.String,boolean,java.lang.String){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.LockableFileWriter.<init>(java.io.File){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.LockableFileWriter.<init>(java.io.File,boolean){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.LockableFileWriter.<init>(java.io.File,boolean,java.lang.String){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.LockableFileWriter.<init>(java.io.File,java.nio.charset.Charset){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.LockableFileWriter.<init>(java.io.File,java.lang.String){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.LockableFileWriter.<init>(java.io.File,java.nio.charset.Charset,boolean,java.lang.String){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.LockableFileWriter.<init>(java.io.File,java.lang.String,boolean,java.lang.String){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.NullWriter.append(char){
+	memory(){
+		return resource(java.io.Writer)
+	}
+}
+method org.apache.commons.io.output.NullWriter.append(java.lang.CharSequence,int,int){
+	memory(){
+		return resource(java.io.Writer)
+	}
+}
+method org.apache.commons.io.output.NullWriter.append(java.lang.CharSequence){
+	memory(){
+		return resource(java.io.Writer)
+	}
+}
+method org.apache.commons.io.output.NullWriter.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.output.NullWriter.<init>(){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.ProxyOutputStream.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.output.ProxyOutputStream.<init>(java.io.OutputStream){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.ProxyWriter.append(char){
+	memory(){
+		return resource(java.io.Writer)
+	}
+}
+method org.apache.commons.io.output.ProxyWriter.append(java.lang.CharSequence,int,int){
+	memory(){
+		return resource(java.io.Writer)
+	}
+}
+method org.apache.commons.io.output.ProxyWriter.append(java.lang.CharSequence){
+	memory(){
+		return resource(java.io.Writer)
+	}
+}
+method org.apache.commons.io.output.ProxyWriter.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.output.ProxyWriter.<init>(java.io.Writer){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.StringBuilderWriter.append(char){
+	memory(){
+		return resource(java.io.Writer)
+	}
+}
+method org.apache.commons.io.output.StringBuilderWriter.append(java.lang.CharSequence){
+	memory(){
+		return resource(java.io.Writer)
+	}
+}
+method org.apache.commons.io.output.StringBuilderWriter.append(java.lang.CharSequence,int,int){
+	memory(){
+		return resource(java.io.Writer)
+	}
+}
+method org.apache.commons.io.output.StringBuilderWriter.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.output.StringBuilderWriter.<init>(){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.StringBuilderWriter.<init>(int){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.StringBuilderWriter.<init>(java.lang.StringBuilder){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.ThresholdingOutputStream.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.output.ThresholdingOutputStream.<init>(int){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.WriterOutputStream.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.output.WriterOutputStream.<init>(java.io.Writer,java.nio.charset.CharsetDecoder){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.WriterOutputStream.<init>(java.io.Writer,java.nio.charset.CharsetDecoder,int,boolean){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.WriterOutputStream.<init>(java.io.Writer,java.nio.charset.Charset,int,boolean){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.WriterOutputStream.<init>(java.io.Writer,java.nio.charset.Charset){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.WriterOutputStream.<init>(java.io.Writer,java.lang.String,int,boolean){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.WriterOutputStream.<init>(java.io.Writer,java.lang.String){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.WriterOutputStream.<init>(java.io.Writer){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.XmlStreamWriter.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method org.apache.commons.io.output.XmlStreamWriter.<init>(java.io.OutputStream){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.XmlStreamWriter.<init>(java.io.OutputStream,java.lang.String){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.XmlStreamWriter.<init>(java.io.File){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.output.XmlStreamWriter.<init>(java.io.File,java.lang.String){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method org.apache.commons.io.ThreadMonitor.start(long){
+	memory(){
+		return STD_NULL
+	}
+}
+method org.apache.commons.io.ThreadMonitor.start(java.lang.Thread,long){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.base.Converter.convert(A){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.base.Objects.firstNonNull(T,T){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.base.Strings.emptyToNull(java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.base.Strings.isNullOrEmpty(java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.cache.CacheLoader.loadAll(java.lang.Iterable){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.collect.ArrayTable.erase(java.lang.Object,java.lang.Object){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.collect.DiscreteDomain.next(C){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.collect.DiscreteDomain.previous(C){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.collect.Iterables.paddedPartition(java.lang.Iterable,int){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.collect.Iterators.paddedPartition(java.util.Iterator,int){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.escape.Escapers.computeReplacement(CharEscaper,char){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.escape.Escapers.computeReplacement(UnicodeEscaper,int){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.hash.Funnels.asOutputStream(PrimitiveSink){
+	memory(){
+		return resource(java.io.OutputStream)
+	}
+}
+method com.google.common.hash.HashingInputStream.<init>(HashFunction,java.io.InputStream){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method com.google.common.hash.HashingOutputStream.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method com.google.common.hash.HashingOutputStream.<init>(HashFunction,java.io.OutputStream){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method com.google.common.io.AppendableWriter.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method com.google.common.io.AppendableWriter.append(char){
+	memory(){
+		return resource(java.io.Writer)
+	}
+}
+method com.google.common.io.AppendableWriter.append(java.lang.CharSequence){
+	memory(){
+		return resource(java.io.Writer)
+	}
+}
+method com.google.common.io.AppendableWriter.append(java.lang.CharSequence,int,int){
+	memory(){
+		return resource(java.io.Writer)
+	}
+}
+method com.google.common.io.AppendableWriter.<init>(java.lang.Appendable){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method com.google.common.io.BaseEncoding.encodingStream(java.io.Writer){
+	memory(){
+		return resource(java.io.OutputStream)
+	}
+}
+method com.google.common.io.BaseEncoding.decodingStream(java.io.Reader){
+	memory(){
+		return resource(java.io.InputStream)
+	}
+}
+method com.google.common.io.ByteSink.openStream(){
+	memory(){
+		return resource(java.io.OutputStream)
+	}
+}
+method com.google.common.io.ByteSink.openBufferedStream(){
+	memory(){
+		return resource(java.io.OutputStream)
+	}
+}
+method com.google.common.io.ByteSource.openStream(){
+	memory(){
+		return resource(java.io.InputStream)
+	}
+}
+method com.google.common.io.ByteSource.openBufferedStream(){
+	memory(){
+		return resource(java.io.InputStream)
+	}
+}
+method com.google.common.io.ByteStreams.nullOutputStream(){
+	memory(){
+		return resource(java.io.OutputStream)
+	}
+}
+method com.google.common.io.ByteStreams.limit(java.io.InputStream,long){
+	memory(){
+		return resource(java.io.InputStream)
+	}
+}
+method com.google.common.io.CharSequenceReader.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method com.google.common.io.CharSequenceReader.<init>(java.lang.CharSequence){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method com.google.common.io.CharSink.openStream(){
+	memory(){
+		return resource(java.io.Writer)
+	}
+}
+method com.google.common.io.CharSink.openBufferedStream(){
+	memory(){
+		return resource(java.io.Writer)
+	}
+}
+method com.google.common.io.CharSource.openStream(){
+	memory(){
+		return resource(java.io.Reader)
+	}
+}
+method com.google.common.io.CharSource.openBufferedStream(){
+	memory(){
+		return resource(java.io.BufferedReader)
+	}
+}
+method com.google.common.io.CharStreams.nullWriter(){
+	memory(){
+		return resource(java.io.Writer)
+	}
+}
+method com.google.common.io.CharStreams.asWriter(java.lang.Appendable){
+	memory(){
+		return resource(java.io.Writer)
+	}
+}
+method com.google.common.io.Closeables.closeQuietly(java.io.InputStream){
+	memory(){
+	}
+	trigger() close(#1)
+}
+method com.google.common.io.Closeables.closeQuietly(java.io.Reader){
+	memory(){
+	}
+	trigger() close(#1)
+}
+method com.google.common.io.CountingInputStream.<init>(java.io.InputStream){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method com.google.common.io.CountingOutputStream.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method com.google.common.io.CountingOutputStream.<init>(java.io.OutputStream){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method com.google.common.io.FileBackedOutputStream.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method com.google.common.io.FileBackedOutputStream.<init>(int){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method com.google.common.io.FileBackedOutputStream.<init>(int,boolean){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method com.google.common.io.Files.newReader(java.io.File,java.nio.charset.Charset){
+	memory(){
+		return resource(java.io.BufferedReader)
+	}
+}
+method com.google.common.io.Files.newWriter(java.io.File,java.nio.charset.Charset){
+	memory(){
+		return resource(java.io.BufferedWriter)
+	}
+}
+method com.google.common.io.Files.readFirstLine(java.io.File,java.nio.charset.Charset){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.io.LineReader.readLine(){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.io.LittleEndianDataInputStream.<init>(java.io.InputStream){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method com.google.common.io.LittleEndianDataOutputStream.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method com.google.common.io.LittleEndianDataOutputStream.<init>(java.io.OutputStream){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method com.google.common.io.MultiInputStream.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method com.google.common.io.MultiInputStream.<init>(java.util.Iterator){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method com.google.common.io.MultiReader.close(){
+	memory(){
+	}
+	trigger() close(THIS)
+}
+method com.google.common.io.MultiReader.<init>(java.util.Iterator){
+	memory(){
+	}
+	trigger() open(THIS)
+}
+method com.google.common.primitives.Doubles.tryParse(java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.primitives.Floats.tryParse(java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.primitives.Ints.tryParse(java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}
+method com.google.common.primitives.Longs.tryParse(java.lang.String){
+	memory(){
+		return STD_NULL
+	}
+}

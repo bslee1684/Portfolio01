@@ -1,0 +1,172 @@
+2021-10-23 17:14:05.674 [INFO ]                           
+2021-10-23 17:14:05.737 [INFO ] LAUNCHER                  + [!] SPARROW Source Information Extracting Module
+2021-10-23 17:14:05.743 [INFO ] LAUNCHER                  |  + Version 1.0.3 (67da95f) released at 2016-06-24
+2021-10-23 17:14:05.744 [INFO ]                           
+2021-10-23 17:14:05.744 [INFO ] PROPERTY_MAP              + [P] The property used ===>>>
+2021-10-23 17:14:05.745 [INFO ] PROPERTY_MAP              |  + java.version: java16
+2021-10-23 17:14:05.747 [INFO ] PROPERTY_MAP              |  + log.directory.path: D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\log_files
+2021-10-23 17:14:05.747 [INFO ] PROPERTY_MAP              |  + log.encoding: UTF-8
+2021-10-23 17:14:05.748 [INFO ] PROPERTY_MAP              |  + log.file.name: source_info.kokofarm6_java_server_3300.1.log
+2021-10-23 17:14:05.748 [INFO ] PROPERTY_MAP              |  + log.level: info
+2021-10-23 17:14:05.749 [INFO ] PROPERTY_MAP              |  + result.directory.path: D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\resource_files\sourceinfo
+2021-10-23 17:14:05.749 [INFO ] PROPERTY_MAP              |  + result.file.name: sourceinfo.dat
+2021-10-23 17:14:05.750 [INFO ] PROPERTY_MAP              |  + source.file.encoding: UTF-8
+2021-10-23 17:14:05.750 [INFO ] PROPERTY_MAP              |  + source.file.encoding.detection.enabled: false
+2021-10-23 17:14:05.751 [INFO ] PROPERTY_MAP              |  + target.list.encoding: UTF-8
+2021-10-23 17:14:05.752 [INFO ] PROPERTY_MAP              |  + target.list.file.name: D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\map_files\src_info_map.txt
+2021-10-23 17:14:05.752 [INFO ] PROPERTY_MAP              + [P] <<<=== End of the property
+2021-10-23 17:14:05.753 [INFO ]                           
+2021-10-23 17:14:05.787 [INFO ] EXTRACTOR                 + [E] Extract from 29 target(s) ===>>>
+2021-10-23 17:14:05.789 [INFO ] EXTRACTOR                 |  + [    1/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\CallAvgWeight.java (UTF-8)
+2021-10-23 17:14:05.885 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\CallAvgWeight.java with UTF-8
+2021-10-23 17:14:06.605 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.55079734684c41d99774a1031b7a9524 ] has been extracted
+2021-10-23 17:14:06.606 [INFO ] EXTRACTOR                 |  + [    2/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\HashBuffer.java (UTF-8)
+2021-10-23 17:14:06.611 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\HashBuffer.java with ISO-8859-1
+2021-10-23 17:14:06.629 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.46873700c4e34d97b42bf61089e3fdc3 ] has been extracted
+2021-10-23 17:14:06.630 [INFO ] EXTRACTOR                 |  + [    3/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\MysqlConn.java (UTF-8)
+2021-10-23 17:14:06.641 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\MysqlConn.java with UTF-8
+2021-10-23 17:14:06.678 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.33aeb1dea9994d99b01114a72a35fd3e ] has been extracted
+2021-10-23 17:14:06.679 [INFO ] EXTRACTOR                 |  + [    4/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\p3300\P3300Listner.java (UTF-8)
+2021-10-23 17:14:06.682 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\p3300\P3300Listner.java with ISO-8859-1
+2021-10-23 17:14:06.700 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.583091bd427b41aa9c7dfd84301826ee ] has been extracted
+2021-10-23 17:14:06.701 [INFO ] EXTRACTOR                 |  + [    5/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\DateUtil.java (UTF-8)
+2021-10-23 17:14:06.708 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\DateUtil.java with UTF-8
+2021-10-23 17:14:06.735 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.a95d33d0e4684fe89a2e61b8bcfe1180 ] has been extracted
+2021-10-23 17:14:06.735 [INFO ] EXTRACTOR                 |  + [    6/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\CheckComein.java (UTF-8)
+2021-10-23 17:14:06.742 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\CheckComein.java with UTF-8
+2021-10-23 17:14:06.776 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.294f0538e09445d48201232c57690038 ] has been extracted
+2021-10-23 17:14:06.777 [INFO ] EXTRACTOR                 |  + [    7/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\FloatCompute.java (UTF-8)
+2021-10-23 17:14:06.778 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\FloatCompute.java with UTF-8
+2021-10-23 17:14:06.795 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.162ad2f882814ce08c3e2459756f3a63 ] has been extracted
+2021-10-23 17:14:06.795 [INFO ] EXTRACTOR                 |  + [    8/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\CheckComeout.java (UTF-8)
+2021-10-23 17:14:06.802 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\CheckComeout.java with UTF-8
+2021-10-23 17:14:06.825 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.0f1641fb65de459a9c14ea4f01f24620 ] has been extracted
+2021-10-23 17:14:06.825 [INFO ] EXTRACTOR                 |  + [    9/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\server\ServerWorker.java (UTF-8)
+2021-10-23 17:14:06.832 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\server\ServerWorker.java with UTF-8
+2021-10-23 17:14:06.856 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.e118a85223fa419c990b000304fbba2e ] has been extracted
+2021-10-23 17:14:06.857 [INFO ] EXTRACTOR                 |  + [   10/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\SimpleTimer.java (UTF-8)
+2021-10-23 17:14:06.859 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\SimpleTimer.java with ISO-8859-1
+2021-10-23 17:14:06.870 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.0d055dc30ae4420f98712e97df49a9b0 ] has been extracted
+2021-10-23 17:14:06.871 [INFO ] EXTRACTOR                 |  + [   11/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\kokofarm\ExternSensor.java (UTF-8)
+2021-10-23 17:14:06.877 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\kokofarm\ExternSensor.java with UTF-8
+2021-10-23 17:14:06.900 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.202f924208cb471e8f34f385223cc5fa ] has been extracted
+2021-10-23 17:14:06.900 [INFO ] EXTRACTOR                 |  + [   12/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\BufferUpdate.java (UTF-8)
+2021-10-23 17:14:06.903 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\BufferUpdate.java with UTF-8
+2021-10-23 17:14:06.914 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.767c6eff84464088a03a515d39ad5077 ] has been extracted
+2021-10-23 17:14:06.915 [INFO ] EXTRACTOR                 |  + [   13/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\CheckRecalc.java (UTF-8)
+2021-10-23 17:14:06.916 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\CheckRecalc.java with UTF-8
+2021-10-23 17:14:06.925 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.5cdcda2e7a67446e92b34fd52c4545b8 ] has been extracted
+2021-10-23 17:14:06.926 [INFO ] EXTRACTOR                 |  + [   14/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\kokofarm\FarmInfo.java (UTF-8)
+2021-10-23 17:14:06.932 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\kokofarm\FarmInfo.java with UTF-8
+2021-10-23 17:14:06.965 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.ff58a72e6ddd4546b7219f76bc338153 ] has been extracted
+2021-10-23 17:14:06.966 [INFO ] EXTRACTOR                 |  + [   15/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\run_object\RunSql.java (UTF-8)
+2021-10-23 17:14:06.968 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\run_object\RunSql.java with UTF-8
+2021-10-23 17:14:06.982 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.abfddf557ef64f6c968873f931290541 ] has been extracted
+2021-10-23 17:14:06.982 [INFO ] EXTRACTOR                 |  + [   16/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\MongoConn.java (UTF-8)
+2021-10-23 17:14:06.988 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\MongoConn.java with UTF-8
+2021-10-23 17:14:07.027 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.211aee44019e4d29ae1c494f0f93b740 ] has been extracted
+2021-10-23 17:14:07.027 [INFO ] EXTRACTOR                 |  + [   17/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\run_object\RunCamera.java (UTF-8)
+2021-10-23 17:14:07.028 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\run_object\RunCamera.java with ISO-8859-1
+2021-10-23 17:14:07.036 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.aebe153a283c4b2fbcae555392dd6980 ] has been extracted
+2021-10-23 17:14:07.037 [INFO ] EXTRACTOR                 |  + [   18/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\kokofarm\LightSensor.java (UTF-8)
+2021-10-23 17:14:07.040 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\kokofarm\LightSensor.java with ISO-8859-1
+2021-10-23 17:14:07.049 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.0d970e63c24c4520909d5dc12cb7b467 ] has been extracted
+2021-10-23 17:14:07.050 [INFO ] EXTRACTOR                 |  + [   19/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\FileUtil.java (UTF-8)
+2021-10-23 17:14:07.056 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\FileUtil.java with UTF-8
+2021-10-23 17:14:07.164 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.4697206f50c74f5eb99891e3d57b0b0b ] has been extracted
+2021-10-23 17:14:07.165 [INFO ] EXTRACTOR                 |  + [   20/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\kokofarm\Device.java (UTF-8)
+2021-10-23 17:14:07.166 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\kokofarm\Device.java with ISO-8859-1
+2021-10-23 17:14:07.175 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.26769a13f4bf447181a8a350da193b3d ] has been extracted
+2021-10-23 17:14:07.176 [INFO ] EXTRACTOR                 |  + [   21/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\SensorHistoryUpdate.java (UTF-8)
+2021-10-23 17:14:07.181 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\SensorHistoryUpdate.java with UTF-8
+2021-10-23 17:14:07.198 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.67b8842d17c84f6084378293e93da518 ] has been extracted
+2021-10-23 17:14:07.199 [INFO ] EXTRACTOR                 |  + [   22/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\server\ServerListner.java (UTF-8)
+2021-10-23 17:14:07.201 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\server\ServerListner.java with UTF-8
+2021-10-23 17:14:07.210 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.b0802bacf1ae48489377e4333ca48a3e ] has been extracted
+2021-10-23 17:14:07.211 [INFO ] EXTRACTOR                 |  + [   23/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\RequestWorker.java (UTF-8)
+2021-10-23 17:14:07.217 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\RequestWorker.java with UTF-8
+2021-10-23 17:14:07.244 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.164ef14a7ab94ce8b6507e52e4a6ea39 ] has been extracted
+2021-10-23 17:14:07.244 [INFO ] EXTRACTOR                 |  + [   24/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\AvgCalcBridge.java (UTF-8)
+2021-10-23 17:14:07.249 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\AvgCalcBridge.java with UTF-8
+2021-10-23 17:14:07.269 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.bfa15ec0844c424e903daee0b1c80c57 ] has been extracted
+2021-10-23 17:14:07.270 [INFO ] EXTRACTOR                 |  + [   25/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\p3300\P3300Worker.java (UTF-8)
+2021-10-23 17:14:07.275 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\p3300\P3300Worker.java with UTF-8
+2021-10-23 17:14:07.312 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.04df97b951d245e9831ee6b364eca77b ] has been extracted
+2021-10-23 17:14:07.313 [INFO ] EXTRACTOR                 |  + [   26/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\p3300\P3300Main.java (UTF-8)
+2021-10-23 17:14:07.315 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\p3300\P3300Main.java with UTF-8
+2021-10-23 17:14:07.322 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.362ccb8fed624824b2c8e0d589b2d0a6 ] has been extracted
+2021-10-23 17:14:07.323 [INFO ] EXTRACTOR                 |  + [   27/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\RecalcAvg.java (UTF-8)
+2021-10-23 17:14:07.329 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\RecalcAvg.java with UTF-8
+2021-10-23 17:14:07.348 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.8aa13f83d2cb4919be5fe89b374495f2 ] has been extracted
+2021-10-23 17:14:07.348 [INFO ] EXTRACTOR                 |  + [   28/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\kokofarm\SensorUnit.java (UTF-8)
+2021-10-23 17:14:07.350 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\kokofarm\SensorUnit.java with UTF-8
+2021-10-23 17:14:07.360 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.12adbaa770834a618525620ab36e0b32 ] has been extracted
+2021-10-23 17:14:07.361 [INFO ] EXTRACTOR                 |  + [   29/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\BufferMerger.java (UTF-8)
+2021-10-23 17:14:07.365 [INFO ] READER                    |  |  + Open D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\BufferMerger.java with UTF-8
+2021-10-23 17:14:07.377 [INFO ] EXTRACTOR                 |  |  + Information [ JavaSource, ID: JAVA.aae0b6b66e704b01899e2f8c3fe34bf3 ] has been extracted
+2021-10-23 17:14:07.379 [INFO ] EXTRACTOR                 |  + Total    29/   29 (100.00%) target(s) has(have) been processed
+2021-10-23 17:14:07.379 [INFO ] EXTRACTOR                 + [E] <<<=== Extraction finished
+2021-10-23 17:14:07.380 [INFO ]                           
+2021-10-23 17:14:07.381 [INFO ] REFINER                   + [R] Refine 29 target(s) ===>>>
+2021-10-23 17:14:07.382 [INFO ] REFINER                   |  + [    1/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\CallAvgWeight.java (UTF-8)
+2021-10-23 17:14:08.225 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.55079734684c41d99774a1031b7a9524 ] has been refined
+2021-10-23 17:14:08.226 [INFO ] REFINER                   |  + [    2/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\HashBuffer.java (UTF-8)
+2021-10-23 17:14:08.236 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.46873700c4e34d97b42bf61089e3fdc3 ] has been refined
+2021-10-23 17:14:08.237 [INFO ] REFINER                   |  + [    3/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\MysqlConn.java (UTF-8)
+2021-10-23 17:14:08.251 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.33aeb1dea9994d99b01114a72a35fd3e ] has been refined
+2021-10-23 17:14:08.252 [INFO ] REFINER                   |  + [    4/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\p3300\P3300Listner.java (UTF-8)
+2021-10-23 17:14:08.288 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.583091bd427b41aa9c7dfd84301826ee ] has been refined
+2021-10-23 17:14:08.289 [INFO ] REFINER                   |  + [    5/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\DateUtil.java (UTF-8)
+2021-10-23 17:14:08.303 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.a95d33d0e4684fe89a2e61b8bcfe1180 ] has been refined
+2021-10-23 17:14:08.304 [INFO ] REFINER                   |  + [    6/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\CheckComein.java (UTF-8)
+2021-10-23 17:14:08.314 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.294f0538e09445d48201232c57690038 ] has been refined
+2021-10-23 17:14:08.314 [INFO ] REFINER                   |  + [    7/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\FloatCompute.java (UTF-8)
+2021-10-23 17:14:08.324 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.162ad2f882814ce08c3e2459756f3a63 ] has been refined
+2021-10-23 17:14:08.324 [INFO ] REFINER                   |  + [    8/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\CheckComeout.java (UTF-8)
+2021-10-23 17:14:08.334 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.0f1641fb65de459a9c14ea4f01f24620 ] has been refined
+2021-10-23 17:14:08.335 [INFO ] REFINER                   |  + [    9/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\server\ServerWorker.java (UTF-8)
+2021-10-23 17:14:08.347 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.e118a85223fa419c990b000304fbba2e ] has been refined
+2021-10-23 17:14:08.348 [INFO ] REFINER                   |  + [   10/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\SimpleTimer.java (UTF-8)
+2021-10-23 17:14:08.358 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.0d055dc30ae4420f98712e97df49a9b0 ] has been refined
+2021-10-23 17:14:08.358 [INFO ] REFINER                   |  + [   11/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\kokofarm\ExternSensor.java (UTF-8)
+2021-10-23 17:14:08.370 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.202f924208cb471e8f34f385223cc5fa ] has been refined
+2021-10-23 17:14:08.371 [INFO ] REFINER                   |  + [   12/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\BufferUpdate.java (UTF-8)
+2021-10-23 17:14:08.381 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.767c6eff84464088a03a515d39ad5077 ] has been refined
+2021-10-23 17:14:08.381 [INFO ] REFINER                   |  + [   13/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\CheckRecalc.java (UTF-8)
+2021-10-23 17:14:08.390 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.5cdcda2e7a67446e92b34fd52c4545b8 ] has been refined
+2021-10-23 17:14:08.391 [INFO ] REFINER                   |  + [   14/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\kokofarm\FarmInfo.java (UTF-8)
+2021-10-23 17:14:08.408 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.ff58a72e6ddd4546b7219f76bc338153 ] has been refined
+2021-10-23 17:14:08.409 [INFO ] REFINER                   |  + [   15/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\run_object\RunSql.java (UTF-8)
+2021-10-23 17:14:08.418 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.abfddf557ef64f6c968873f931290541 ] has been refined
+2021-10-23 17:14:08.418 [INFO ] REFINER                   |  + [   16/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\util\MongoConn.java (UTF-8)
+2021-10-23 17:14:08.441 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.211aee44019e4d29ae1c494f0f93b740 ] has been refined
+2021-10-23 17:14:08.442 [INFO ] REFINER                   |  + [   17/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\run_object\RunCamera.java (UTF-8)
+2021-10-23 17:14:08.450 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.aebe153a283c4b2fbcae555392dd6980 ] has been refined
+2021-10-23 17:14:08.450 [INFO ] REFINER                   |  + [   18/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\kokofarm\LightSensor.java (UTF-8)
+2021-10-23 17:14:08.458 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.0d970e63c24c4520909d5dc12cb7b467 ] has been refined
+2021-10-23 17:14:08.459 [INFO ] REFINER                   |  + [   19/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\FileUtil.java (UTF-8)
+2021-10-23 17:14:08.473 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.4697206f50c74f5eb99891e3d57b0b0b ] has been refined
+2021-10-23 17:14:08.473 [INFO ] REFINER                   |  + [   20/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\kokofarm\Device.java (UTF-8)
+2021-10-23 17:14:08.482 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.26769a13f4bf447181a8a350da193b3d ] has been refined
+2021-10-23 17:14:08.482 [INFO ] REFINER                   |  + [   21/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\SensorHistoryUpdate.java (UTF-8)
+2021-10-23 17:14:08.493 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.67b8842d17c84f6084378293e93da518 ] has been refined
+2021-10-23 17:14:08.494 [INFO ] REFINER                   |  + [   22/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\server\ServerListner.java (UTF-8)
+2021-10-23 17:14:08.502 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.b0802bacf1ae48489377e4333ca48a3e ] has been refined
+2021-10-23 17:14:08.502 [INFO ] REFINER                   |  + [   23/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\RequestWorker.java (UTF-8)
+2021-10-23 17:14:08.517 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.164ef14a7ab94ce8b6507e52e4a6ea39 ] has been refined
+2021-10-23 17:14:08.518 [INFO ] REFINER                   |  + [   24/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\AvgCalcBridge.java (UTF-8)
+2021-10-23 17:14:08.529 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.bfa15ec0844c424e903daee0b1c80c57 ] has been refined
+2021-10-23 17:14:08.529 [INFO ] REFINER                   |  + [   25/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\p3300\P3300Worker.java (UTF-8)
+2021-10-23 17:14:08.543 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.04df97b951d245e9831ee6b364eca77b ] has been refined
+2021-10-23 17:14:08.543 [INFO ] REFINER                   |  + [   26/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\p3300\P3300Main.java (UTF-8)
+2021-10-23 17:14:08.551 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.362ccb8fed624824b2c8e0d589b2d0a6 ] has been refined
+2021-10-23 17:14:08.551 [INFO ] REFINER                   |  + [   27/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\RecalcAvg.java (UTF-8)
+2021-10-23 17:14:08.562 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.8aa13f83d2cb4919be5fe89b374495f2 ] has been refined
+2021-10-23 17:14:08.563 [INFO ] REFINER                   |  + [   28/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\kokofarm\SensorUnit.java (UTF-8)
+2021-10-23 17:14:08.573 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.12adbaa770834a618525620ab36e0b32 ] has been refined
+2021-10-23 17:14:08.574 [INFO ] REFINER                   |  + [   29/   29] [JAVA] D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\source_files\KKF_NEW_P3300\module\BufferMerger.java (UTF-8)
+2021-10-23 17:14:08.584 [INFO ] REFINER                   |  |  + Information [ JavaSource, ID: JAVA.aae0b6b66e704b01899e2f8c3fe34bf3 ] has been refined
+2021-10-23 17:14:08.585 [INFO ] REFINER                   |  + Total    29/   29 (100.00%) target(s) has(have) been processed
+2021-10-23 17:14:08.585 [INFO ] REFINER                   + [R] <<<=== Refinement finished
+2021-10-23 17:14:08.589 [INFO ]                           
+2021-10-23 17:14:08.589 [INFO ] SOURCE_INFO               + [S] Source information has been stored to: D:\fasoo\sparrow_server_4.6_r610_windows\data\temp\etc\379\796\resource_files\sourceinfo\sourceinfo.dat
