@@ -1,0 +1,474 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alarm>
+  <version>5.5.7</version>
+  <info>
+    <elem order="1">
+      <constant kind="general">
+        <value>null</value>
+      </constant>
+    </elem>
+    <elem order="2">
+      <call kind="source">
+        <name>executeQuery</name>
+        <qualified-name>java.sql.Statement.executeQuery</qualified-name>
+      </call>
+    </elem>
+    <elem order="3">
+      <constant kind="general">
+        <value>null</value>
+      </constant>
+    </elem>
+    <elem order="4">
+      <constant kind="general">
+        <value>java.sql.Timestamp</value>
+      </constant>
+    </elem>
+    <elem order="5">
+      <constant kind="general">
+        <value>null</value>
+      </constant>
+    </elem>
+    <elem order="6">
+      <constant kind="general">
+        <value>java.sql.Timestamp</value>
+      </constant>
+    </elem>
+    <elem order="7">
+      <call kind="general">
+        <name>next</name>
+        <qualified-name>java.sql.ResultSet.next</qualified-name>
+      </call>
+    </elem>
+    <elem order="8">
+      <call kind="general">
+        <name>next</name>
+        <qualified-name>java.sql.ResultSet.next</qualified-name>
+      </call>
+    </elem>
+  </info>
+  <defect>
+    <prj_name>kokofarm6_java_server_3300</prj_name>
+    <did>D1B8E980BEE8351AD58678791709F043F10DDBE2</did>
+    <did_prev>1DA64F8F09E442DFBBA975CE926A5EDBEFB980FF</did_prev>
+    <loc>
+      <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+      <filehash>N/A</filehash>
+      <class>util.MysqlConn</class>
+      <func>select</func>
+      <line>290</line>
+    </loc>
+    <category>semantic</category>
+    <rule>RESOURCE_LEAK</rule>
+    <cwe>404</cwe>
+    <rank>100</rank>
+    <cid>4427265</cid>
+  </defect>
+  <ctx>
+    <cid>4427265</cid>
+    <scope>
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line_start>246</line_start>
+        <line_end>246</line_end>
+      </loc>
+    </scope>
+    <event defect="false" type="branch">
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line>250</line>
+      </loc>
+      <tag><![CDATA[[계산됨 state != null 은 true 입니다] 라인 252 으로 진행합니다]]></tag>
+      <desc id="jfsem.COMMON.EVALED"></desc>
+      <desc id="jfsem.COMMON.0_is_1">
+        <arg>state != null</arg>
+        <arg>true</arg>
+      </desc>
+      <desc id="jfsem.COMMON.go_to_line_0">
+        <arg>252</arg>
+      </desc>
+      <branch>
+        <loc>
+          <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+          <filehash>N/A</filehash>
+          <class>util.MysqlConn</class>
+          <func>select</func>
+          <line>250</line>
+        </loc>
+      </branch>
+    </event>
+    <event defect="false" type="source">
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line>252</line>
+      </loc>
+      <tag><![CDATA[CLUE_RESOURCE_ALLOCATED(java.sql.ResultSet)]]></tag>
+      <desc id="jfsem.COMMON.resource_type_0_allocated">
+        <arg>java.sql.ResultSet</arg>
+      </desc>
+    </event>
+    <event defect="false" type="branch">
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line>254</line>
+      </loc>
+      <tag><![CDATA[[가정됨 set.next() 은 true 입니다] 라인 255 으로 진행합니다]]></tag>
+      <desc id="jfsem.COMMON.ASSUME"></desc>
+      <desc id="jfsem.COMMON.0_is_1">
+        <arg>set.next()</arg>
+        <arg>true</arg>
+      </desc>
+      <desc id="jfsem.COMMON.go_to_line_0">
+        <arg>255</arg>
+      </desc>
+      <branch>
+        <loc>
+          <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+          <filehash>N/A</filehash>
+          <class>util.MysqlConn</class>
+          <func>select</func>
+          <line>254</line>
+        </loc>
+      </branch>
+    </event>
+    <event defect="false" type="branch">
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line>254</line>
+      </loc>
+      <tag><![CDATA[[반복] 라인 254 으로 진행합니다]]></tag>
+      <desc id="jfsem.COMMON.LOOP"></desc>
+      <desc id="jfsem.COMMON.go_to_line_0">
+        <arg>254</arg>
+      </desc>
+      <branch>
+        <loc>
+          <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+          <filehash>N/A</filehash>
+          <class>util.MysqlConn</class>
+          <func>select</func>
+          <line>254</line>
+        </loc>
+      </branch>
+    </event>
+    <event defect="false" type="branch">
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line>254</line>
+      </loc>
+      <tag><![CDATA[[예외 java.sql.SQLException] java.sql.ResultSet.next 으로부터 예외가 발생하여 스코프를 벗어납니다.]]></tag>
+      <desc id="jfsem.COMMON.EXCEPTION_0">
+        <arg>java.sql.SQLException</arg>
+      </desc>
+      <desc id="jfsem.COMMON.escaped_by_exception_from_0">
+        <arg>java.sql.ResultSet.next</arg>
+      </desc>
+      <branch>
+        <loc>
+          <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+          <filehash>N/A</filehash>
+          <class>util.MysqlConn</class>
+          <func>select</func>
+          <line>254</line>
+        </loc>
+      </branch>
+    </event>
+    <event defect="false" type="branch">
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line>254</line>
+      </loc>
+      <tag><![CDATA[[예외 ] 예외가 발생하여 스코프를 벗어납니다.라인 274 으로 진행합니다]]></tag>
+      <desc id="jfsem.COMMON.escaped_by_exception"></desc>
+      <desc id="jfsem.COMMON.go_to_line_0">
+        <arg>274</arg>
+      </desc>
+      <branch>
+        <loc>
+          <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+          <filehash>N/A</filehash>
+          <class>util.MysqlConn</class>
+          <func>select</func>
+          <line>254</line>
+        </loc>
+      </branch>
+    </event>
+    <event defect="false" type="branch">
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line>256</line>
+      </loc>
+      <tag><![CDATA[[가정됨 temp$198 < length(fields) 은 true 입니다] 라인 256 으로 진행합니다]]></tag>
+      <desc id="jfsem.COMMON.ASSUME"></desc>
+      <desc id="jfsem.COMMON.0_is_1">
+        <arg>temp$198 &amp;lt; length(fields)</arg>
+        <arg>true</arg>
+      </desc>
+      <desc id="jfsem.COMMON.go_to_line_0">
+        <arg>256</arg>
+      </desc>
+      <branch>
+        <loc>
+          <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+          <filehash>N/A</filehash>
+          <class>util.MysqlConn</class>
+          <func>select</func>
+          <line>256</line>
+        </loc>
+      </branch>
+    </event>
+    <event defect="false" type="branch">
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line>256</line>
+      </loc>
+      <tag><![CDATA[[반복] 라인 256 으로 진행합니다]]></tag>
+      <desc id="jfsem.COMMON.LOOP"></desc>
+      <desc id="jfsem.COMMON.go_to_line_0">
+        <arg>256</arg>
+      </desc>
+      <branch>
+        <loc>
+          <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+          <filehash>N/A</filehash>
+          <class>util.MysqlConn</class>
+          <func>select</func>
+          <line>256</line>
+        </loc>
+      </branch>
+    </event>
+    <event defect="false" type="branch">
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line>256</line>
+      </loc>
+      <tag><![CDATA[[가정됨 temp$198 < length(fields) 은 true 입니다] 라인 256 으로 진행합니다]]></tag>
+      <desc id="jfsem.COMMON.ASSUME"></desc>
+      <desc id="jfsem.COMMON.0_is_1">
+        <arg>temp$198 &amp;lt; length(fields)</arg>
+        <arg>true</arg>
+      </desc>
+      <desc id="jfsem.COMMON.go_to_line_0">
+        <arg>256</arg>
+      </desc>
+      <branch>
+        <loc>
+          <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+          <filehash>N/A</filehash>
+          <class>util.MysqlConn</class>
+          <func>select</func>
+          <line>256</line>
+        </loc>
+      </branch>
+    </event>
+    <event defect="false" type="branch">
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line>256</line>
+      </loc>
+      <tag><![CDATA[[반복] 라인 256 으로 진행합니다]]></tag>
+      <desc id="jfsem.COMMON.LOOP"></desc>
+      <desc id="jfsem.COMMON.go_to_line_0">
+        <arg>256</arg>
+      </desc>
+      <branch>
+        <loc>
+          <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+          <filehash>N/A</filehash>
+          <class>util.MysqlConn</class>
+          <func>select</func>
+          <line>256</line>
+        </loc>
+      </branch>
+    </event>
+    <event defect="false" type="branch">
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line>256</line>
+      </loc>
+      <tag><![CDATA[[가정됨 temp$198 < length(fields) 은 false 입니다] 라인 271 으로 진행합니다]]></tag>
+      <desc id="jfsem.COMMON.ASSUME"></desc>
+      <desc id="jfsem.COMMON.0_is_1">
+        <arg>temp$198 &amp;lt; length(fields)</arg>
+        <arg>false</arg>
+      </desc>
+      <desc id="jfsem.COMMON.go_to_line_0">
+        <arg>271</arg>
+      </desc>
+      <branch>
+        <loc>
+          <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+          <filehash>N/A</filehash>
+          <class>util.MysqlConn</class>
+          <func>select</func>
+          <line>256</line>
+        </loc>
+      </branch>
+    </event>
+    <event defect="false" type="branch">
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line>259</line>
+      </loc>
+      <tag><![CDATA[[가정됨 temp == null 은 true 입니다] 라인 259 으로 진행합니다]]></tag>
+      <desc id="jfsem.COMMON.ASSUME"></desc>
+      <desc id="jfsem.COMMON.0_is_1">
+        <arg>temp == null</arg>
+        <arg>true</arg>
+      </desc>
+      <desc id="jfsem.COMMON.go_to_line_0">
+        <arg>259</arg>
+      </desc>
+      <branch>
+        <loc>
+          <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+          <filehash>N/A</filehash>
+          <class>util.MysqlConn</class>
+          <func>select</func>
+          <line>259</line>
+        </loc>
+      </branch>
+    </event>
+    <event defect="false" type="branch">
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line>259</line>
+      </loc>
+      <tag><![CDATA[[가정됨 temp == null 은 false 입니다] 라인 259 으로 진행합니다]]></tag>
+      <desc id="jfsem.COMMON.ASSUME"></desc>
+      <desc id="jfsem.COMMON.0_is_1">
+        <arg>temp == null</arg>
+        <arg>false</arg>
+      </desc>
+      <desc id="jfsem.COMMON.go_to_line_0">
+        <arg>259</arg>
+      </desc>
+      <branch>
+        <loc>
+          <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+          <filehash>N/A</filehash>
+          <class>util.MysqlConn</class>
+          <func>select</func>
+          <line>259</line>
+        </loc>
+      </branch>
+    </event>
+    <event defect="false" type="branch">
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line>262</line>
+      </loc>
+      <tag><![CDATA[[가정됨 temp.getClass().getName() != "java.sql.Timestamp" 은 true 입니다] 라인 269 으로 진행합니다]]></tag>
+      <desc id="jfsem.COMMON.ASSUME"></desc>
+      <desc id="jfsem.COMMON.0_is_1">
+        <arg>temp.getClass().getName() != &quot;java.sql.Timestamp&quot;</arg>
+        <arg>true</arg>
+      </desc>
+      <desc id="jfsem.COMMON.go_to_line_0">
+        <arg>269</arg>
+      </desc>
+      <branch>
+        <loc>
+          <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+          <filehash>N/A</filehash>
+          <class>util.MysqlConn</class>
+          <func>select</func>
+          <line>262</line>
+        </loc>
+      </branch>
+    </event>
+    <event defect="false" type="branch">
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line>262</line>
+      </loc>
+      <tag><![CDATA[[가정됨 temp.getClass().getName() != "java.sql.Timestamp" 은 false 입니다] 라인 262 으로 진행합니다]]></tag>
+      <desc id="jfsem.COMMON.ASSUME"></desc>
+      <desc id="jfsem.COMMON.0_is_1">
+        <arg>temp.getClass().getName() != &quot;java.sql.Timestamp&quot;</arg>
+        <arg>false</arg>
+      </desc>
+      <desc id="jfsem.COMMON.go_to_line_0">
+        <arg>262</arg>
+      </desc>
+      <branch>
+        <loc>
+          <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+          <filehash>N/A</filehash>
+          <class>util.MysqlConn</class>
+          <func>select</func>
+          <line>262</line>
+        </loc>
+      </branch>
+    </event>
+    <event defect="false" type="source">
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line>290</line>
+      </loc>
+      <tag><![CDATA[CLUE_RESOURCE_DANGLED]]></tag>
+      <desc id="jfsem.COMMON.resource_dangled"></desc>
+    </event>
+    <event defect="true" type="sink">
+      <loc>
+        <file>C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300\src\util\MysqlConn.java</file>
+        <filehash>N/A</filehash>
+        <class>util.MysqlConn</class>
+        <func>select</func>
+        <line>290</line>
+      </loc>
+      <tag><![CDATA[이곳에서 리소스릭이 발생할 위험이 있습니다.]]></tag>
+      <desc id="jfsem.COMMON.resource_leak_may_occur_here"></desc>
+    </event>
+  </ctx>
+</alarm>

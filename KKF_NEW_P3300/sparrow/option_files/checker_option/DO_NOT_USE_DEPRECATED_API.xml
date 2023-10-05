@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<option>
+    <category name="DO_NOT_USE_DEPRECATED_API">
+        <item name="deprecated_api" type="string" required="false" variable="true" regexp="true">
+            <value>java.util.Date</value>
+        </item>
+    </category>
+</option>

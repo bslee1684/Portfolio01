@@ -1,0 +1,81 @@
+[ {
+  "reference" : "전자정부 프레임워크 표준 Inspection",
+  "checkerCount" : 2,
+  "enableCheckerCount" : 1,
+  "disableCheckerCount" : 1
+}, {
+  "reference" : "CWE 660 List",
+  "checkerCount" : 43,
+  "enableCheckerCount" : 18,
+  "disableCheckerCount" : 25
+}, {
+  "reference" : "행안부 안드로이드 보안약점",
+  "checkerCount" : 23,
+  "enableCheckerCount" : 5,
+  "disableCheckerCount" : 18
+}, {
+  "reference" : "모바일 보안 약점 점검",
+  "checkerCount" : 81,
+  "enableCheckerCount" : 9,
+  "disableCheckerCount" : 72
+}, {
+  "reference" : "CERT",
+  "checkerCount" : 159,
+  "enableCheckerCount" : 15,
+  "disableCheckerCount" : 144
+}, {
+  "reference" : "CWE",
+  "checkerCount" : 364,
+  "enableCheckerCount" : 21,
+  "disableCheckerCount" : 343
+}, {
+  "reference" : "행안부 보안약점",
+  "checkerCount" : 252,
+  "enableCheckerCount" : 12,
+  "disableCheckerCount" : 240
+}, {
+  "reference" : "OWASP",
+  "checkerCount" : 301,
+  "enableCheckerCount" : 12,
+  "disableCheckerCount" : 289
+}, {
+  "reference" : "Oracle",
+  "checkerCount" : 43,
+  "enableCheckerCount" : 1,
+  "disableCheckerCount" : 42
+}, {
+  "reference" : "PCI DSS",
+  "checkerCount" : 188,
+  "enableCheckerCount" : 0,
+  "disableCheckerCount" : 188
+}, {
+  "reference" : "전자금융감독규정",
+  "checkerCount" : 156,
+  "enableCheckerCount" : 0,
+  "disableCheckerCount" : 156
+}, {
+  "reference" : "국정원 취약점",
+  "checkerCount" : 32,
+  "enableCheckerCount" : 0,
+  "disableCheckerCount" : 32
+}, {
+  "reference" : ".NET framework design guideline",
+  "checkerCount" : 12,
+  "enableCheckerCount" : 0,
+  "disableCheckerCount" : 12
+}, {
+  "reference" : "Visual Studio 2015 Code Warnings",
+  "checkerCount" : 2,
+  "enableCheckerCount" : 0,
+  "disableCheckerCount" : 2
+}, {
+  "reference" : "CWE 658 List",
+  "checkerCount" : 1,
+  "enableCheckerCount" : 0,
+  "disableCheckerCount" : 1
+}, {
+  "reference" : "CWE 659 List",
+  "checkerCount" : 1,
+  "enableCheckerCount" : 0,
+  "disableCheckerCount" : 1
+} ]

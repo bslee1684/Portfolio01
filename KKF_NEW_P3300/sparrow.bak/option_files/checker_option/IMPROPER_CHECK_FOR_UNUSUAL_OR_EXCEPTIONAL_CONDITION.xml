@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<option>
+    <category name="IMPROPER_CHECK_FOR_UNUSUAL_OR_EXCEPTIONAL_CONDITION">
+        <item name="excluded_class_type" type="string" required="false" variable="true" regexp="true">
+            <value>Logger</value>
+            <value>java.util.logging.Logger</value>
+        </item>
+        <item name="excluded_call_name" type="string" required="false" variable="true" regexp="true">
+            <value>getAnonymousLogger</value>
+        </item>
+        <item name="check_all_method_calls" type="boolean" required="true" variable="false">
+            <value>false</value>
+        </item>
+        <item name="check_all_catch_exceptions" type="boolean" required="true" variable="false">
+            <value>false</value>
+        </item>
+    </category>
+</option>

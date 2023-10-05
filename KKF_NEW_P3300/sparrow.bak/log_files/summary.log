@@ -1,0 +1,88 @@
+### SPARROW ANALYSIS SUMMARY ###
+
+PROJECT PATH       : C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300
+SPARROW HOME       : C:\sparrow_client_4.6_r180525_windows\
+SPARROW VERSRION   : 4.6_r180525
+SPARROW BUILD ID   : 7ea16f3ae9588be1ac086edfcbb86567d54aaea8
+SPARROW BUILD DATE : 2018-05-25
+REMOTE ENGINE      : true
+REMOTE ENGINE JAVA : true
+COMMAND ARGS : -U emotion -P kokofarm6_java_server_3300 -SD C:\Users\bslee\Documents\code\eclipse\KKF_NEW_P3300 -S http://210.113.205.37:18080
+===================================================================
++ Analysis summary
+===================================================================
+  Project Name              : kokofarm6_java_server_3300
+  Checker Group             : java_quality (53/860)
+  Elapsed time              : 0:4:49
+  Files                     : 29
+  Build lines               : 3,871
+  Total defects             : 61
+===================================================================
+ Risk  Checker                                               Numbers
+-------------------------------------------------------------------
+   4   AVOID_USING_JAVA_IO                                      8
+   5   BAD_EXCEPTIONAL_CONDITION                               43
+   3   DO_NOT_USE_SHIFT_ON_SIGNED_VALUE                         1
+   2   IMPROPER_CHECK_FOR_UNUSUAL_OR_EXCEPTIONAL_CONDITION      3
+   5   PUBLIC_FIELD_SHOULD_BE_USED_WITHOUT_METHOD               2
+   1   RESOURCE_LEAK                                            3
+   4   USE_STRICTFP_FOR_DIVISION                                1
+===================================================================
+
+
+### SPARROW ANALYSIS TIME ###
+
+== Build (BuildJava) ==
+START TIME   : 2021-10-26 16:40:55
+END TIME     : 2021-10-26 16:40:55
+ELAPSED TIME : 0ms (0h 0m 0s)
+
+== CTAGS Make ==
+START TIME   : 2021-10-26 16:40:55
+END TIME     : 2021-10-26 16:40:55
+ELAPSED TIME : 62ms (0h 0m 0s)
+
+== Engine(JEM) ==
+VERSION      : 1.17.0
+START TIME   : 2021-10-23 16:41:33
+END TIME     : 2021-10-23 16:46:19
+ELAPSED TIME : 285743ms (0h 4m 45s)
+EXIT VALUE   : [0]
+
+== INSERT Project File ==
+START TIME   : 2021-10-23 16:46:20
+END TIME     : 2021-10-23 16:46:21
+ELAPSED TIME : 219ms (0h 0m 0s)
+COUNT        : 29
+
+== CTAGS divide ==
+START TIME   : 2021-10-23 16:46:21
+END TIME     : 2021-10-23 16:46:21
+ELAPSED TIME : 94ms (0h 0m 0s)
+
+== DB DEFECT INSERT, PARSING, CALCULATE ==
+START TIME   : 2021-10-23 16:46:21
+END TIME     : 2021-10-23 16:46:21
+ELAPSED TIME : 187ms (0h 0m 0s)
+COUNT        : 61
+
+== DB UPDATE STATUS (Existing before scan) ==
+START TIME   : 2021-10-23 16:46:21
+END TIME     : 2021-10-23 16:46:21
+ELAPSED TIME : 16ms (0h 0m 0s)
+
+== DB UPDATE SCAN ==
+START TIME   : 2021-10-23 16:46:21
+END TIME     : 2021-10-23 16:46:21
+ELAPSED TIME : 0ms (0h 0m 0s)
+
+== DB SELECT RESULT ==
+VERSION      : ProjectId : 379, CheckerGroupId : 54
+START TIME   : 2021-10-23 16:46:21
+END TIME     : 2021-10-23 16:46:21
+ELAPSED TIME : 16ms (0h 0m 0s)
+
+== TOTAL ==
+START TIME   : 2021-10-26 16:40:55
+END TIME     : 2021-10-26 16:45:44
+ELAPSED TIME : 289793ms (0h 4m 49s)
