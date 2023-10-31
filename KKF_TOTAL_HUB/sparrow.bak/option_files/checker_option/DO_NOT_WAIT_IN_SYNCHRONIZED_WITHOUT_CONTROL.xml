@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<option>
-    <category name="DO_NOT_WAIT_IN_SYNCHRONIZED_WITHOUT_CONTROL">
-        <item name="wait_method" type="string" required="false" variable="true" regexp="true">
-            <value>java.util.concurrent.locks.Lock.wait</value>
-        </item>
-    </category>
-</option>
