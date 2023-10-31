@@ -1,2 +1,0 @@
-[2021-06-29 10:38:13] ERROR => Create Statement Error / Class : sql_conn / func : get_statement
-[2021-06-29 10:38:15] ERROR => Create Statement Error / Class : sql_conn / func : get_statement

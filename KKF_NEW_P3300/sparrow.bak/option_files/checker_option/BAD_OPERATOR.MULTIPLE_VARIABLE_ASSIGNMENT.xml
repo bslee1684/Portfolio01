@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<option>
-    <category name="BAD_OPERATOR.MULTIPLE_VARIABLE_ASSIGNMENT">
-        <item name="check_separate_assignments" type="boolean" required="true" variable="false">
-            <value>true</value>
-        </item>
-    </category>
-</option>
